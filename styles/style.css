@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#main-nav{
+    display: flex;
+    height: 70px;
+    background-color: white;
+}
+.navbar navbar-expand-lg bg-light .container-fluid .navbar-brand{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+#main-nav .logo{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+#main-nav .anchor{
+    margin-top: 16px;
+    align-items: center;
+    padding: 10px 10px;
+}
+#main-nav .anchor a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
+    padding: 20px;
+    margin-left: 10px;
+
+}
+#navbarSupportedContent .navbar-nav me-auto mb-2 mb-lg-0 .nav-item #a-home{
+    height: fit-content;
+    background: linear-gradient(to right, aquamarine 50%, white 50%);
+}
+#main-nav .anchor #a-home{
+    height: fit-content;
+    background: linear-gradient(to right, aquamarine 50%, white 50%);
+    
+    
+}
+
+#side-nav{
+    display: block;
+    top: 0;
+    right: 0;
+}
+
+#hero-sec{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#hero-sec .sec-text{
+    width: 50%;
+    margin-top: 8%;
+    margin-right: 20px;
+}
+
+#hero-sec .sec-text .text{
+    font-size: 30px;
+    background: linear-gradient(to bottom, white 50%, aquamarine 50%);
+    width: fit-content;
+
+}
+#hero-sec .sec-img{
+    width: 50%;
+    margin-left: 20px;
+    height: 100%;
+}
+
+/* #main-nav .anchor{
+    margin-left: 2%;
+    display: block;
+    margin-top: 10px;
+} */
